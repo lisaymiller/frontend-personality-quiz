@@ -55,7 +55,7 @@ class Zach extends Component {
                   <br />
                   a long walk at Hogwarts
                   <br />
-                  than at the beach. But doesn't like costumes...
+                  than at the beach, but he doesn't like costumes...
                 </Typography>
               </CardContent>
             </CardActionArea>
