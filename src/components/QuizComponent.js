@@ -77,13 +77,8 @@ class QuizComponent extends Component {
     }
     if (tieIndex > -1 && getSum(score) === 13) {
       alert(
-        "You tied with " +
-          personality[index] +
-          " and " +
-          personality[tieIndex] +
-          ", please retake the quiz"
+        "You tied with " + personality[index] + " and " + personality[tieIndex]
       );
-      window.location.reload(true);
     } else if (getSum(score) < 13) {
       alert("Please complete the quiz");
     } else {
