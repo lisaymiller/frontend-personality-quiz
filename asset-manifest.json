@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/frontend-personality-quiz/static/css/main.34de6062.chunk.css",
+    "main.js": "/frontend-personality-quiz/static/js/main.f2e97b55.chunk.js",
+    "main.js.map": "/frontend-personality-quiz/static/js/main.f2e97b55.chunk.js.map",
+    "runtime-main.js": "/frontend-personality-quiz/static/js/runtime-main.7e5b25fc.js",
+    "runtime-main.js.map": "/frontend-personality-quiz/static/js/runtime-main.7e5b25fc.js.map",
+    "static/js/2.57b0bdfb.chunk.js": "/frontend-personality-quiz/static/js/2.57b0bdfb.chunk.js",
+    "static/js/2.57b0bdfb.chunk.js.map": "/frontend-personality-quiz/static/js/2.57b0bdfb.chunk.js.map",
+    "index.html": "/frontend-personality-quiz/index.html",
+    "precache-manifest.0f9adcce85e060a88f1617cdf9c8e587.js": "/frontend-personality-quiz/precache-manifest.0f9adcce85e060a88f1617cdf9c8e587.js",
+    "service-worker.js": "/frontend-personality-quiz/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/frontend-personality-quiz/static/css/main.34de6062.chunk.css.map",
+    "static/js/2.57b0bdfb.chunk.js.LICENSE.txt": "/frontend-personality-quiz/static/js/2.57b0bdfb.chunk.js.LICENSE.txt",
+    "static/media/george.png": "/frontend-personality-quiz/static/media/george.80747659.png",
+    "static/media/kaley.png": "/frontend-personality-quiz/static/media/kaley.73bb2d52.png",
+    "static/media/lionel.png": "/frontend-personality-quiz/static/media/lionel.f3f81c9c.png",
+    "static/media/pasha.png": "/frontend-personality-quiz/static/media/pasha.f974c3ce.png",
+    "static/media/zach.png": "/frontend-personality-quiz/static/media/zach.f44cf37e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e5b25fc.js",
+    "static/js/2.57b0bdfb.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.f2e97b55.chunk.js"
+  ]
+}
