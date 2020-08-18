@@ -22,7 +22,7 @@
     "react-swipeable-views": "^0.13.9"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "node src/index.js",
     "build": "react-scripts build",
     "heroku-postbuild": "npm install && npm run build"
   },
