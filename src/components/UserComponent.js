@@ -20,20 +20,14 @@ class UserComponent extends Component {
   userChange = (event) => {
     event.preventDefault();
     this.setState({ name: event.target.value });
-    console.log("name:" + this.state.name);
   };
-
-  handleSubmit(event) {
-    event.preventDefault();
-    alert(this.state.name);
-    this.submitUser();
-  }
 
   saveUser = (event) => {
     this.setState({ name: event.target.value });
   };
 
-  submitUser = () => {
+  submitUser = (event) => {
+    event.preventDefault();
     const user = { userName: this.state.name };
     axios.post("https://personality-quiz-wwc.herokuapp.com/user/names", user);
   };
@@ -60,7 +54,7 @@ class UserComponent extends Component {
                 variant="contained"
                 color="primary"
                 size="small"
-                onClick={this.handleSubmit}
+                onClick={this.submitUser}
                 component={Link}
                 to="/quiz"
               >
