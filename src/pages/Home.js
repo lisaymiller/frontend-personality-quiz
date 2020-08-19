@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import AppNav from "../components/AppNav";
 import UserComponent from "../components/UserComponent";
 import {
@@ -8,7 +7,6 @@ import {
   CardMedia,
   CardContent,
   Typography,
-  Button,
   Grid,
 } from "@material-ui/core";
 
