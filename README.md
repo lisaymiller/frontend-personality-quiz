@@ -18,4 +18,6 @@ This app is the front end to `https://github.com/lisaymiller/frontend-personalit
 
 - Make a new app in heroku, and make sure to choose Github as your deployment method, and link the repo you want to deploy, enable auto deploy and then deploy your branch
 
+_If you get an error about react-scripts, try running `npm i react-scripts` then `npm start`_
+
 #### Thats it!
