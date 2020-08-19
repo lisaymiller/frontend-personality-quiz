@@ -15,43 +15,43 @@ class UserComponent extends Component {
       name: "",
     };
 
-    this.userChange = this.userChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    // this.userChange = this.userChange.bind(this);
+    // this.handleSubmit = this.handleSubmit.bind(this);
 
     // this.submitUser = this.submitUser.bind(this);
   }
 
-  userChange = (event) => {
-    event.preventDefault();
-    this.setState({ name: event.target.value });
-    console.log("name:" + this.state.name);
-  };
+  //   userChange = (event) => {
+  //     event.preventDefault();
+  //     this.setState({ name: event.target.value });
+  //     console.log("name:" + this.state.name);
+  //   };
 
-  handleSubmit(event) {
-    event.preventDefault();
-    alert(this.state.name);
-    this.submitUser();
-  }
-  // componentDidMount() {
-  //   if (this.props.name) {
-  //     this.setState({
-  //       name: this.props.name,
-  //     });
+  //   handleSubmit(event) {
+  //     event.preventDefault();
+  //     alert(this.state.name);
+  //     this.submitUser();
   //   }
-  // }
-  saveUser = (event) => {
-    this.setState({ name: event.target.value });
-  };
+  //   componentDidMount() {
+  //     if (this.props.name) {
+  //       this.setState({
+  //         name: this.props.name,
+  //       });
+  //     }
+  //   }
+  //   saveUser = (event) => {
+  //     this.setState({ name: event.target.value });
+  //   };
 
-  submitUser = () => {
-    // event.preventDefault();
-    const user = { userName: this.state.name };
-    axios.post("http://localhost:8080/user/names", user);
-    //  let name = this.state;
-    // UserService.createUserNames(name).then((response) => {
-    //   this.props.history.push("names");
-    // });
-  };
+  //   submitUser = () => {
+  //     event.preventDefault();
+  //     const user = { userName: this.state.name };
+  //     axios.post("http://localhost:8080/user/names", user);
+  //      let name = this.state;
+  //     UserService.createUserNames(name).then((response) => {
+  //       this.props.history.push("names");
+  //     });
+  //   };
 
   // using this yt video https://www.youtube.com/watch?v=ieMhlyjPjWo
 
