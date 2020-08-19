@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import AppNav from "../components/AppNav";
+import UserComponent from "../components/UserComponent";
 import {
   Card,
   CardActionArea,
