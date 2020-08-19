@@ -1,5 +1,7 @@
 # Welcome to my frontend!
 
+This app is the front end to `https://github.com/lisaymiller/frontend-personality-quiz`, full application can be found [here](https://frontend-personality-quiz.herokuapp.com/)
+
 ## How to run locally
 
 Run `npm install` and `npm start` and you should be good to go!
@@ -12,6 +14,8 @@ Run `npm install` and `npm start` and you should be good to go!
 -Change your script methods in your `package.json` like so:
 ⋅⋅⋅`"scripts": { "dev": "react-scripts start", "start": "serve -s build", "build": "react-scripts build", "heroku-postbuild": "npm run build" }`
 
--When making your app to heroku, make sure you connect your github repo with your
+-Run `npm i serve` to install the server needed to deploy
 
-CONTINUE
+-Make a new app in heroku, and make sure to choose Github as your deployment method, and link the repo you want to deploy
+
+#### Thats it!
