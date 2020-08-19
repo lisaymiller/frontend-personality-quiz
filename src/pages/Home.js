@@ -25,6 +25,7 @@ class Home extends Component {
         >
           <h1>Welcome to WWC's personality quiz!</h1>
           <p>Find out which WIN mentor you most likely resemble</p>
+          <UserComponent />
           <Grid container direction="row" justify="center" alignItems="center">
             <Card style={{ margin: 10 }}>
               <CardActionArea>
@@ -119,8 +120,6 @@ class Home extends Component {
               </Card>
             </Grid>
           </Grid>
-          <br />
-          <UserComponent />
           <br />
         </Grid>
       </div>
