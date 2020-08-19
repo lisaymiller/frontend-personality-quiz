@@ -24,7 +24,7 @@ class Home extends Component {
           style={{ minHeight: "100vh" }}
         >
           <h1>Welcome to WWC's personality quiz!</h1>
-          <span>Find out which WIN mentor you most likely resemble</span>
+          <p>Find out which WIN mentor you most likely resemble</p>
           <UserComponent />
           <br />
           <Grid container direction="row" justify="center" alignItems="center">
