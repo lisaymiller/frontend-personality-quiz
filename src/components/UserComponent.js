@@ -30,6 +30,7 @@ class UserComponent extends Component {
     event.preventDefault();
     const user = { username: this.state.name };
     axios.post("https://personality-quiz-wwc.herokuapp.com/user/names", user);
+    this.setState({ name: "" });
   };
 
   render() {
@@ -54,9 +55,7 @@ class UserComponent extends Component {
                 variant="contained"
                 color="primary"
                 size="small"
-                onClick={(e) => this.submitUser(e)}
-                component={Link}
-                to="/quiz"
+                onClick={this.submitUser}
               >
                 Take Quiz
               </Button>
