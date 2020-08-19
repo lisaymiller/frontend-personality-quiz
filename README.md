@@ -1,6 +1,6 @@
-# Welcome to my frontend!
+# Welcome to the frontend!
 
-This app is the front end to `https://github.com/lisaymiller/frontend-personality-quiz`, full application can be found [here](https://frontend-personality-quiz.herokuapp.com/)
+This app is the back end portion to a full-stack application, which can be found [here](https://frontend-personality-quiz.herokuapp.com/)
 
 ## How to run locally
 
