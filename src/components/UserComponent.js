@@ -54,7 +54,7 @@ class UserComponent extends Component {
                 variant="contained"
                 color="primary"
                 size="small"
-                onClick={() => this.submitUser(e)}
+                onClick={(e) => this.submitUser(e)}
                 component={Link}
                 to="/quiz"
               >
