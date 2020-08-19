@@ -14,7 +14,7 @@ class UserComponent extends Component {
     };
 
     this.userChange = this.userChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.submitUser = this.submitUser.bind(this);
   }
 
   userChange = (event) => {
