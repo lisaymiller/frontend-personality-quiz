@@ -121,14 +121,15 @@ class Home extends Component {
             </Grid>
           </Grid>
           <br />
-          <Button
+          {/* <Button
             variant="contained"
             color="primary"
             component={Link}
             to="/quiz"
           >
             Take Quiz
-          </Button>
+          </Button> */}
+          <UserComponent />
           <br />
         </Grid>
       </div>
