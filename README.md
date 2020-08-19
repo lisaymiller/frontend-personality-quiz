@@ -16,6 +16,6 @@ Run `npm install` and `npm start` and you should be good to go!
 
 -Run `npm i serve` to install the server needed to deploy
 
--Make a new app in heroku, and make sure to choose Github as your deployment method, and link the repo you want to deploy
+-Make a new app in heroku, and make sure to choose Github as your deployment method, and link the repo you want to deploy, enable auto deploy and then deploy your branch
 
 #### Thats it!
