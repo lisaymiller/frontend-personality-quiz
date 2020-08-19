@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import { Grid, TextField, Button } from "@material-ui/core";
 import { AccountCircleRounded } from "@material-ui/icons";
-import { Button, Grid, TextField } from "@material-ui/core";
 
 class UserComponent extends Component {
   state = {};
