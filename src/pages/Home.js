@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import AppNav from "../components/AppNav";
 import {
   Card,
@@ -7,9 +6,9 @@ import {
   CardMedia,
   CardContent,
   Typography,
-  Button,
   Grid,
 } from "@material-ui/core";
+import UserComponent from "../components/UserComponent";
 
 class Home extends Component {
   state = {};
@@ -121,14 +120,7 @@ class Home extends Component {
             </Grid>
           </Grid>
           <br />
-          <Button
-            variant="contained"
-            color="primary"
-            component={Link}
-            to="/quiz"
-          >
-            Take Quiz
-          </Button>
+          <UserComponent />
           <br />
         </Grid>
       </div>
