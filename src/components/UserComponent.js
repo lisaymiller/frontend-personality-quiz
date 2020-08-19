@@ -57,7 +57,7 @@ class UserComponent extends Component {
                 size="small"
                 onClick={this.submitUser}
               >
-                Take Quiz
+                Submit
               </Button>
             </Grid>
           </Grid>
