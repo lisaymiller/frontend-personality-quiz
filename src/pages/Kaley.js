@@ -55,7 +55,7 @@ class Kaley extends Component {
                   <br />
                   in a tough situation, you might
                   <br />
-                  catch her looking at cute animal pictures at work...
+                  catch them looking at cute animal pictures at work...
                   <br />
                 </Typography>
               </CardContent>
